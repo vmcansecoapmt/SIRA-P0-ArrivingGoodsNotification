@@ -151,8 +151,13 @@
                </list>
             </hash>
             <url n="jarURL" path="deploy/VUCEM-P0-ArrivingGoodsNotification-context-root.war"/>
+            <value n="platformType" v="TOMCAT"/>
+            <value n="platformVersion" v="7"/>
             <value n="profileClass" v="oracle.jdeveloper.deploy.war.WarProfile"/>
             <value n="profileName" v="WebServices"/>
+            <hash n="properties">
+               <value n="" v=""/>
+            </hash>
          </hash>
       </hash>
       <list n="profileList">
