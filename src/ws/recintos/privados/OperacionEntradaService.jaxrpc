@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebService xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webservice">
+   <list n="CHILD_NODES">
+      <url path="../../../../public_html/WEB-INF/wsdl/recintoP0notificacion.wsdl"/>
+      <url path="ObjectFactory.java"/>
+      <url path="House.java"/>
+      <url path="MasterConsolid.java"/>
+      <url path="SolicitudMercancia.java"/>
+      <url path="RecibeSubdivision.java"/>
+      <url path="RecibeIngresoSinIdAsociado.java"/>
+      <url path="RecibeDesconsolidacion.java"/>
+      <url path="InformacionEntradaSimple.java"/>
+      <url path="InformacionTransferenciaSolicitud.java"/>
+      <url path="RecibeP3FAVucem.java"/>
+      <url path="Sellos.java"/>
+      <url path="RecibeP8Vucem.java"/>
+      <url path="GuiaMaster.java"/>
+      <url path="GuiaHouse.java"/>
+      <url path="RecibePedimento.java"/>
+      <url path="ContenedorOrigen.java"/>
+      <url path="SolicitudMercanciaPedimento.java"/>
+      <url path="InformacionGeneral.java"/>
+      <url path="RecibeTraspaleo.java"/>
+      <url path="RecibeTransferenciaOrigen.java"/>
+      <url path="InformacionDelMaster.java"/>
+      <url path="RecibeConsolidacion.java"/>
+      <url path="RecibeP0.java"/>
+      <url path="RecibeP3Vucem.java"/>
+      <url path="Contenedor.java"/>
+      <url path="SolicitudMercanciaSubdivision.java"/>
+      <url path="RecibeIncidencia.java"/>
+      <url path="Transporte.java"/>
+      <url path="Mercancia.java"/>
+      <url path="Personas.java"/>
+      <url path="package-info.java"/>
+      <url path="OperacionEntradaImpl.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MIME"/>
+      <list n="BD_">
+         <hash>
+            <value n="BOUND_PORT_TYPE" v="{http://privados.recintos.ws}OperacionEntrada"/>
+            <value n="DEFAULT_NAME" v="false"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+            <value n="NAME" v="{http://privados.recintos.ws}OperacionEntradaPortBinding"/>
+            <list n="OP_BINDINGS">
+               <hash>
+                  <value n="BD_SOAP_ACTION" v="http://privados.recintos.ws/recibeP0"/>
+                  <value n="BD_WSDL_RETURN_NAME" v="return"/>
+                  <value n="BD_WSDL_RETURN_TNS" v="USE_OWNER_TNS"/>
+                  <value n="BOUND_OPERATION" v="void.recibeP0.ws.recintos.privados.InformacionGeneral.ws.recintos.privados.Transporte.ws.recintos.privados.InformacionDelMaster.java.util.List&lt;ws.recintos.privados.Contenedor>.java.util.List&lt;ws.recintos.privados.GuiaHouse>.java.util.List&lt;ws.recintos.privados.Mercancia>.java.util.List&lt;ws.recintos.privados.Personas>"/>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </list>
+            <hash n="PROPERTY_GROUPS"/>
+         </hash>
+      </list>
+      <list n="BINDING_FILES"/>
+      <value n="GENERATION_OPTION" v="ANNOTATIONS_WSDL"/>
+      <value n="GUID" v="d94048c8-0161-1000-8001-0a341a0a8a7f"/>
+      <value n="LAST_GENERATION_BOTTOM_UP" v="false"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaWebService"/>
+      <list n="PO_">
+         <hash>
+            <value n="DEFAULT_NAME" v="false"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+            <value n="NAME" v="OperacionEntradaPort"/>
+            <value n="PORT_BINDING_NAME" v="{http://privados.recintos.ws}OperacionEntradaPortBinding"/>
+            <list n="PORT_OPS">
+               <hash>
+                  <value n="EXPOSED_BD_OPERATION" v="void.recibeP0.ws.recintos.privados.InformacionGeneral.ws.recintos.privados.Transporte.ws.recintos.privados.InformacionDelMaster.java.util.List&lt;ws.recintos.privados.Contenedor>.java.util.List&lt;ws.recintos.privados.GuiaHouse>.java.util.List&lt;ws.recintos.privados.Mercancia>.java.util.List&lt;ws.recintos.privados.Personas>"/>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </list>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="URL" protocol="http" host="www.example.com" path=""/>
+         </hash>
+      </list>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+         </hash>
+      </hash>
+      <list n="PT_">
+         <hash>
+            <value n="AUTO_SERVICE_INTERFACE"/>
+            <value n="DEFAULT_NAME" v="false"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+            <value n="NAME" v="{http://privados.recintos.ws}OperacionEntrada"/>
+            <list n="OP_">
+               <hash>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaOperation"/>
+                  <value n="OP_JAVA_NAME" v="recibeP0"/>
+                  <list n="OP_JAVA_PARAMETERS">
+                     <hash>
+                        <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaParameter"/>
+                        <value n="NAME" v="informacionGeneral"/>
+                        <value n="PA_WSDL_NAME" v="informacionGeneral"/>
+                        <value n="TARGET_NAMESPACE" v="USE_OWNER_TNS"/>
+                        <value n="TYPE" v="ws.recintos.privados.InformacionGeneral"/>
+                     </hash>
+                     <hash>
+                        <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaParameter"/>
+                        <value n="NAME" v="transporte"/>
+                        <value n="PA_WSDL_NAME" v="transporte"/>
+                        <value n="TARGET_NAMESPACE" v="USE_OWNER_TNS"/>
+                        <value n="TYPE" v="ws.recintos.privados.Transporte"/>
+                     </hash>
+                     <hash>
+                        <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaParameter"/>
+                        <value n="NAME" v="guiaMaster"/>
+                        <value n="PA_WSDL_NAME" v="guiaMaster"/>
+                        <value n="TARGET_NAMESPACE" v="USE_OWNER_TNS"/>
+                        <value n="TYPE" v="ws.recintos.privados.InformacionDelMaster"/>
+                     </hash>
+                     <hash>
+                        <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaParameter"/>
+                        <value n="NAME" v="contenedor"/>
+                        <value n="PA_WSDL_NAME" v="contenedor"/>
+                        <value n="TARGET_NAMESPACE" v="USE_OWNER_TNS"/>
+                        <value n="TYPE" v="java.util.List&lt;ws.recintos.privados.Contenedor>"/>
+                     </hash>
+                     <hash>
+                        <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaParameter"/>
+                        <value n="NAME" v="guiaHouse"/>
+                        <value n="PA_WSDL_NAME" v="guiaHouse"/>
+                        <value n="TARGET_NAMESPACE" v="USE_OWNER_TNS"/>
+                        <value n="TYPE" v="java.util.List&lt;ws.recintos.privados.GuiaHouse>"/>
+                     </hash>
+                     <hash>
+                        <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaParameter"/>
+                        <value n="NAME" v="mercancia"/>
+                        <value n="PA_WSDL_NAME" v="mercancia"/>
+                        <value n="TARGET_NAMESPACE" v="USE_OWNER_TNS"/>
+                        <value n="TYPE" v="java.util.List&lt;ws.recintos.privados.Mercancia>"/>
+                     </hash>
+                     <hash>
+                        <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaParameter"/>
+                        <value n="NAME" v="personas"/>
+                        <value n="PA_WSDL_NAME" v="personas"/>
+                        <value n="TARGET_NAMESPACE" v="USE_OWNER_TNS"/>
+                        <value n="TYPE" v="java.util.List&lt;ws.recintos.privados.Personas>"/>
+                     </hash>
+                  </list>
+                  <value n="OP_JAVA_RETURN_TYPE" v="void"/>
+                  <value n="OP_NAME" v="recibeP0"/>
+                  <value n="OP_ONE_WAY_OPERATION" v="true"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </list>
+            <hash n="PROPERTY_GROUPS"/>
+            <value n="PT_CLASS" v="ws.recintos.privados.OperacionEntradaImpl"/>
+            <value n="PT_TOP_DOWN_GENERATED_SEI_NAME" v="ws.recintos.privados.OperacionEntrada"/>
+         </hash>
+      </list>
+      <value n="SERVICE_ASYNC" v="false"/>
+      <url n="TARGET_PROJECT" path="../../../../P0-ArrivingGoodsNotification.jpr"/>
+      <value n="TOPDOWN_GENERATION_OPTION" v="JAVA"/>
+      <value n="WS_CREATE_ONEWAY_OPERATIONS" v="true"/>
+      <list n="WS_DEPENDENT_VALUE_TYPES"/>
+      <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+      <url n="WS_REFERENCE_WSDL" path="../../../../public_html/WEB-INF/wsdl/recintoP0notificacion.wsdl"/>
+      <value n="WS_TARGET_NAMESPACE" v="http://privados.recintos.ws"/>
+      <value n="WS_URI" v="OperacionEntradaService"/>
+      <url n="WS_WSDL_FILE" path="../../../../public_html/WEB-INF/wsdl/recintoP0notificacion.wsdl"/>
+      <value n="WS_WSDL_LOC_ON_SEI" v="false"/>
+      <value n="WS_WSDL_LOC_VALUE" v="/WEB-INF/wsdl/recintoP0notificacion.wsdl"/>
+   </hash>
+</jdevws:WebService>
